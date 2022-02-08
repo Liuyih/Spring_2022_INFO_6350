@@ -13,6 +13,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     let images = ["burger", "dumplings", "hotPot", "iceCream", "koreanColdNoodle", "orangeChicken", "padThai", "pizza", "ramen", "salad"]
     
     let foodNames = ["Burger", "Dumplings", "Hot Pot", "Ice cream", "Korean Cold Noodle", "Orange Chicken", "Pad Thai", "Pizza", "Ramen", "Salad"]
+    
+    
     @IBOutlet weak var tblView: UITableView!
     
     override func viewDidLoad() {
